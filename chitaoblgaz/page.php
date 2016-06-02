@@ -208,28 +208,28 @@
 </div>
 
 <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 no pad-top-15">
-  <a class="bb" href="#">
+  <a class="bb" rel="group" title="заголовок фото" href="images/1.png">
   <div class="go_page" style="background-image:url(images/1.png)">
     <div class="bg_hover">Смотреть</div>
   </div>
   </a>
 </div>
 <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 no pad-top-15">
-  <a class="bb" href="#">
+  <a class="bb" rel="group" title="заголовок фото" href="images/2.png">
   <div class="go_page" style="background-image:url(images/2.png)">
     <div class="bg_hover">Смотреть</div>
   </div>
   </a>
 </div>
 <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 no pad-top-15">
-  <a class="bb" href="#">
+  <a class="bb" rel="group" title="заголовок фото" href="images/3.png">
   <div class="go_page" style="background-image:url(images/3.png)">
     <div class="bg_hover">Смотреть</div>
   </div>
   </a>
 </div>
 <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 no pad-top-15">
-  <a class="bb" href="#">
+  <a class="bb" rel="group" title="заголовок фото" href="images/4.png">
   <div class="go_page" style="background-image:url(images/4.png)">
     <div class="bg_hover">Смотреть</div>
   </div>
@@ -237,28 +237,28 @@
 </div>
 
 <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 no pad-top-15">
-  <a class="bb" href="#">
+  <a class="bb" rel="group" title="заголовок фото" href="images/5.png">
   <div class="go_page" style="background-image:url(images/5.png)">
     <div class="bg_hover">Смотреть</div>
   </div>
   </a>
 </div>
 <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 no pad-top-15">
-  <a class="bb" href="#">
+  <a class="bb" rel="group" title="заголовок фото" href="images/6.png">
   <div class="go_page" style="background-image:url(images/6.png)">
     <div class="bg_hover">Смотреть</div>
   </div>
   </a>
 </div>
 <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 no pad-top-15">
-  <a class="bb" href="#">
+  <a class="bb" rel="group" title="заголовок фото" href="images/7.png">
   <div class="go_page" style="background-image:url(images/7.png)">
     <div class="bg_hover">Смотреть</div>
   </div>
   </a>
 </div>
 <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 no pad-top-15">
-  <a class="bb" href="#">
+  <a class="bb" rel="group" title="заголовок фото" href="images/8.png">
   <div class="go_page" style="background-image:url(images/8.png)">
     <div class="bg_hover">Смотреть</div>
   </div>
@@ -315,5 +315,16 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.js"></script>
+	<link rel="stylesheet" type="text/css" href="fancybox/jquery.fancybox.css" media="screen" />
+	<script type="text/javascript" src="fancybox/jquery-1.3.2.min.js"></script>
+	<script type="text/javascript" src="fancybox/jquery.easing.1.3.js"></script>
+	<script type="text/javascript" src="fancybox/jquery.fancybox-1.2.1.pack.js"></script>
+
+
+	<script type="text/javascript">
+    $(document).ready(function() {
+    $("a.bb").fancybox();
+    });
+    </script>
   </body>
 </html>
